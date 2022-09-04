@@ -1,0 +1,46 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    background: rgba(0, 68, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+
+hr{
+    width: 500px;
+    height: 3px;
+    background-color: black;
+
+}
+
+#board{
+    width: 450px;
+    height: 450px;
+    background-color: yellowgreen;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile{
+    width: 147px;
+    height: 147px;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontal-line{
+    border-bottom: 3px solid black;
+}
+
+.vertical-line{
+    border-right: 3px solid black;
+}
+
+.winner{
+    background-color: lightslategrey;
+    color: red;
+}
